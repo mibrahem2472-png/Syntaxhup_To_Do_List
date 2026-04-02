@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart ToDo</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app">
+
+  <h1>My Tasks 🚀</h1>
+
+  <!-- Dashboard -->
+  <div class="dashboard">
+    <div class="card">Total <span id="total">0</span></div>
+    <div class="card">Done <span id="done">0</span></div>
+    <div class="card">Progress <span id="percent">0%</span></div>
+  </div>
+
+  <!-- Input -->
+  <div class="input-box">
+    <input type="text" id="taskInput" placeholder="Add task...">
+    <button onclick="addTask()">Add</button>
+  </div>
+
+  <!-- Tasks -->
+  <ul id="taskList"></ul>
+
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
